@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+    <title>Sewing Seeds of Literacy: <%= controller.controller_name %></title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <%= stylesheet_link_tag 'ssol' %>
+
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+
+        <div class="title_bar">
+          <div class="title_bar_left">
+            <p>sewing seeds of literacy</p>
+          </div>
+          <div class="title_bar_right">
+            <img src="images/brand/header_logo.jpg"/>
+          </div>
+        </div>
+        <div class="clear"/>
+    </div>
+    
+    <div class="content">
+      <%= @content_for_layout %>
+    </div>
+    
+    <div class="clear"/>
+
+    <div class="footer">
+      <div class="footer_left">
+        Copyright Sewing Seeds of Literacy 2008
+      </div>
+      <div class="footer_right">
+        <a href="http://sewingseedsofliteracy.blogspot.com">Blog</a>
+        &nbsp;
+        <a href="mailto: info@sewingseedsofliteracy.com">Contact Us</a>
+      </div>
+      <div class="clear"/>
+    </div>
+  </div>
+</body>
+</html>

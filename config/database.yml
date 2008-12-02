@@ -1,0 +1,14 @@
+development:
+  adapter: mysql
+  database: ssol_dev
+  username: <%= ENV["SSOL_DB_USER"]%>
+  password: <%= ENV["SSOL_DB_PASS"]%>
+  socket: /tmp/mysql.sock
+
+test:
+  adapter: mysql
+  database: ssol_test
+  username: <%= ENV["SSOL_DB_USER"]%>
+  password: <%= ENV["SSOL_DB_PASS"]%>
+  socket: /tmp/mysql.sock
+
