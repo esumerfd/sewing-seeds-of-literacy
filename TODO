@@ -1,0 +1,120 @@
+Agile Planning Tool - TODO File
+===============================
+
+How can we make a planning tool easier. No installations, no logins, no clickety click. What
+we have here is a way of managing a project by simply applying Agile techniques to a file.
+
+There will be convensions and processes for all the usual use cases that we need but all
+can be achieved from this file.
+
+o Project
+
+Each project will start with a title and description.
+
+    === Project: Some useful name
+    A description of what the project is about and may something about who the customer is.
+
+o Backlog
+
+We will collect stories in this file under the Backlog heading. Each story will have a heading
+priority and estimate in a standard format so that we can cut/paste them around.
+
+    === Backlog
+
+    1 8 Design Tool
+    I want a tool that doesn't take me days to understand. I want something that 
+    will stop people telling my I do things the complicated way. This is it. Deal.
+
+    2 8 Add Stories
+    A user can scroll to the backlog and type in what they want as long as it is in
+    the format that these sample stories are in.
+
+o  Release Planning
+
+We need a long term plan that will help us aim for a goal. Define them as follows
+
+    === Release: Explain TODO to Pauls
+    I want to be able to define this process and explain it to Paul. If he likes it
+    then we will polish it up and expand the feedback audience.
+
+o  Iteration Planning
+
+Each iteration will be created and tracked in date order so that they can be found
+easily. Each will have the stories from the Release Backlog cut/paste into it.
+
+    === Iteration: Define process
+    We are adding this documentation to defin the process for the first iteration.
+    Now this is not hard. I think I like it.
+
+o  Stories
+
+As we have seen from the examples stories can be added to the Backlog but they 
+can also be created in a Release Backlog or Iteration. Just use the standard format
+
+    1 32 Take a Thirty Two hour strole
+    Ok, that is a long store, you don't really have to be gone that long.
+
+o  Tasks
+
+You can track tasks within stories if you like. I personally like this to help me
+collect more details about how I am going to approach the story and communicate that
+to others that might want to look in on what is going on.
+
+    2 5 Something
+    Some details about the story.
+
+        4 do the first part of something
+        More description if necessary
+
+        2 do the second part of something.
+    
+
+o  Sequence
+
+The features described above must exist in a well defined sequence in the project 
+file so that they can always be found.
+
+    === Release
+    === Iteration (current iteration only)
+    === Release Backlog
+    === Backlog
+
+o  Maintenance
+
+As releases and iterations are completed they must be deleted from the file. Since
+this file exists in source control the information will always be available.
+
+=============================================================================================
+=== Project: Sewing Seeds of Literacty
+The Sewing Seeds of Literacy (ssol) project aims to organize volumeers, doners and charities
+into a single system that will allow them to interact, track progress, understand goals
+and generally be able to share and commnicate with each other in a safe, transparent and
+productive way.
+
+=== Release: Home Page
+We need a simple home page that will present what SSOL is and who to contact for more information.
+
+=== Iteration: December 2008
+
+1 8 Picture Viewer
+We have chosen the http://www.e2interactive.com/e2_photo_gallery/ photo viewer for the front
+page and have 3ish pictures for visitors to cycle through. Curently they are on the local 
+disk but one day they can all come from flickr.
+
+1 2 Improve Logo in header
+The logo in the header is very coarse. Nick needs to do somehting about it.
+
+    1 Send Nick an email about the logo problem with a screenshot.
+
+=== Backlog
+
+1 8 Deploy site
+We can go ahead and deploy the site to the sewingseedsofliteracy.com domain now, even though
+its not finished because no-one goes there anyway. Ha.
+
+3 16 Integrate E2 with Flickr
+With a standard gallery name on the flickr server we can just cycle through all the photos
+in it. This way the SSOL volunteers can add photos as they like and they will be included
+in the web page.
+
+
