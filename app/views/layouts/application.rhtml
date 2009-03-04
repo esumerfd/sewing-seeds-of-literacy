@@ -22,6 +22,12 @@
         </div>
         <div class="clear"/>
     </div>
+
+    <div class="flash-div">
+    <% if flash[:notice] -%>
+    <%= flash[:notice] %>
+    <% end -%>
+    </div>
     
     <div class="content">
       <%= @content_for_layout %>
@@ -34,6 +40,12 @@
         Copyright Sewing Seeds of Literacy 2008
       </div>
       <div class="footer_right">
+      <% if logged_in? -%>
+	    <a href="/logout">Log-Out</a>
+	  <% else -%>
+	    <a href="/signup">Sign-Up</a> or <a href="/login">Log-In</a>
+	  <% end -%>
+        &nbsp;
         <a href="http://sewingseedsofliteracy.blogspot.com">Blog</a>
         &nbsp;
         <a href="mailto: info@sewingseedsofliteracy.com">Contact Us</a>
