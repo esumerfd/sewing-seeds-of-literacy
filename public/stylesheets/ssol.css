@@ -133,8 +133,8 @@ td
 
 .title1
 {
-    font-weight: bold;
-    font-size: 2em;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .odd_row
@@ -148,8 +148,8 @@ td
 
 .prominent
 {
-    font-weight: bold;
-    font-size: 1.5em;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
 .clear
@@ -161,37 +161,47 @@ td
  * Fields: Common formattings for specific fields.
  *******************************************************************/
 
-.mission
-{
-    font-size: 1.5em;
-}
-
 /*******************************************************************
  * Page: Visitor Home
  *******************************************************************/
 
-#visitor_intro
+.page_content
 {
+
+}
+
+.visitor_left
+{
+  width: 60%;
   padding: 20px 0px 0px 0px;
+  float: left;
 }
 
-#visitor_text
+.visitor_right
 {
-    padding-left: 20px;
-    font-size: 1.5em;
-    float: left;
-    width: 50%;
+  width: 30%;
+  padding: 20px 0px 0px 0px;
+  float: right;
 }
 
-#visitor_images
+.visitor_mission
 {
-    float: right;
+  font-size: 1.5em;
+  font-family: fantasy;
 }
 
-#visitor_images img
+.visitor_text
 {
-    width: 70%;
-    border-style: outset;
-    border-color: gray;
-    border-width: 6px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 1.5em;
+  font-family: fantasy;
+}
+
+.visitor_images img
+{
+  width: 70%;
+  border-style: outset;
+  border-color: gray;
+  border-width: 3px;
 }
