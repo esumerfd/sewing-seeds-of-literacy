@@ -12,3 +12,10 @@ test:
   password: <%= ENV["SSOL_DB_PASS"]%>
   socket: /tmp/mysql.sock
 
+production:
+  adapter: mysql
+  database: ssol_production
+  username: <%= ENV["SSOL_DB_USER"]%>
+  password: <%= ENV["SSOL_DB_PASS"]%>
+  host: 127.0.0.1
+
